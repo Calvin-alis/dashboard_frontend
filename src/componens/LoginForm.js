@@ -21,9 +21,9 @@ function LoginForm({Login, error}) {
                         <input type="email" name = "email" id = "email" onChange={ e => setDetails({...details, email: e.target.value})} value= {details.email} /> </div>
 
                     <div className="form-group">
-                    <label htmlFor="password"> Password: </label>
-                    <input type="password" name = "password" id = "password" onChange={ e => setDetails({...details, password: e.password.value})} value= {details.password} /> </div>
-                    <input type="sumbit" value = "LOGIN" />
+                        <label htmlFor="password"> Password: </label>
+                        <input type="password" name = "password" id = "password" onChange={ e => setDetails({...details, password: e.password.value})} value= {details.password} /> </div>
+                        <input type="sumbit" value = "LOGIN" />
                     </div>   
             </form>
     )
